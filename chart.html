@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+<script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+<script type="text/javascript" src="http://d3js.org/d3.v2.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<!--read data from json files-->
+<script type="text/javascript" src="data.json"></script>
+<script type="text/javascript" src="data.json"></script>
+ <script type="text/javascript" src="bar.js"></script>
+ <link rel="stylesheet" href="chart.css" type="text/css"/>
+</head>
+
+<body>
+    <H1> first table </H1>
+<div class="chart"></div>
+
+<H1> second svg table </H1>
+<svg class="chart2"> </svg>
+
+<H1> a svg table with csv data </H1>
+<svg class="chart3"> </svg>
+
+<H1>a bar chart </H1>
+
+<script type="text/javascript" src="http://d3js.org/d3.v4.min.js"></script>
+
+<svg id="svgtable" width="960" height="500"></svg >
+
+<div id="demo">
+        <div id="buttons">
+        <button id="data1">Set Data to data 1</button>
+        <button id="data2">Set Data to data 2</button>
+        <br>
+        <button id="random">Make Random Data</button>
+        <input id="num" value=10></input>
+        </div>
+    <svg xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" id="svgbar"></svg>
+</div>
+
+    <script type="text/javascript">
+        init();
+    </script>
+    </div>
+
+<H1>Command-Line Cartography<H1>
+<svg id="svgmap" width="960" height="600"></svg>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="chart.js" charset="utf-8"> </script>
+</body>
+</html>

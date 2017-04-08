@@ -1,0 +1,59 @@
+.chart div {
+  font: 10px sans-serif;
+  background-color: skyblue;
+  text-align: right;
+  padding: 3px;
+  margin: 5px;
+  color: white;
+}
+
+.chart2 rect{
+    fill: steelblue;
+}
+
+.chart2 text{
+    fill: white;
+    font: 10px sans-serif;
+    text-anchor: end;
+}
+
+.chart3 rect{
+    fill: steelblue;
+}
+
+.chart3 text{
+    fill: white;
+    font: 10px sans-serif;
+    text-anchor: end;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+.axis text{
+    font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+    
+.counties {
+  fill: none;
+}
+
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+#demo{
+float: middle;
+}

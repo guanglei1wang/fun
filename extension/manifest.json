@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "My first extension",
+  "version": "0.1",
+  "description": "The first extension that I made.",
+  "content_scripts":[ { 
+      "matches": [ "<all_urls>" ],  
+      "js": ["content.js"] 
+  } ],
+  "browser_action": {"default_icon": "icon.png"}
+}

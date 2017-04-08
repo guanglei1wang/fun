@@ -1,0 +1,22 @@
+{
+   "browser_action": {
+      "default_icon": "icon.png"
+   },
+   "content_scripts": [ {
+      "js": [ "content_script.js" ],
+      "matches": [ "http://dnvod.eu/*", "http://www.dnvod.eu/*", "https://dnvod.eu/*", "https://www.dnvod.eu/*" ]
+   } ],
+   "description": "支持多瑙影院去广告、支持播放会员高清视频、支持午夜版",
+   "icons": {
+      "128": "./icon_128.png",
+      "16": "./icon_16.png",
+      "48": "./icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAikjFop5oycqouA6w/rXE4Ogb5hdxIV5RxOZxrHG+fCCY9j1fzkPgxNyzvYnR+x4uG/p1cn12uuaFlzkr2ljU2QH+63K9MDzvK+2hpptphFpqCx/x9zsnKxVmxQCfIqoc2fJyHEthq0YQZzI63dmNrECJDEjx8bhs40m2kbTZFs8OkycYuuvMTAncw3lmfEEAS0nudNAtfOgwYq0vyz5NKO1zwELNPyLMLbXLRCvDkao1dnxFfwKzpOwinScJdntxjGGx2ysUw6DBn46X1FwTS7y2fX0GO+YCpsZ3sl/5qHkvL9+XdTx7PSF9FawiFH8oOjFrjJVC+K/3RiZj8IBdDwIDAQAB",
+   "manifest_version": 2,
+   "name": "绿色多瑙-多瑙影院破解（去广告，会员高清和午夜版）",
+   "permissions": [ "tabs", "http://dnvod.eu/*", "http://www.dnvod.eu/*", "https://dnvod.eu/*", "https://www.dnvod.eu/*" ],
+   "short_name": "绿色多瑙",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.3.4"
+}
